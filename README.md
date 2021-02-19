@@ -2,14 +2,12 @@
 Attempt to create a minimal EDK2 for OnePlus 5.
 
 ## Status
-The phone boots EDK2 & enters crashdump 900E mode after sitting for ~10 seconds on a screen with:
-```
-Error: Failed to enable MMU
-```
-![EDK2 MMU enable error on a OnePlus 5](progress.jpg)
+Can load GRUB2 from a fat partition on the UFS.
+
 
 ### Working
 * Continuous Display
+* UFS Storage
 * ...
 
 ### Not Working
